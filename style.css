@@ -29,7 +29,7 @@ ul
     font-size: 24px;
     padding-left: 52px;
 }
-li:hover
+li.hooverli:hover
 {
     opacity: 0.55;
 }
@@ -71,7 +71,7 @@ p.recipe
     margin-right: 15px;
     text-align: center;
     font-size: 18px;
-    text-justify: inter-word; 
+    text-justify: distribute-all-lines; 
 }
 
 .recipe
@@ -80,5 +80,57 @@ p.recipe
     margin-left: 40px;
     margin-right: 40px;
     font-size: 18px;   
-    text-justify: inter-word; 
+    text-justify: distribute-all-lines; 
+}
+
+button
+{
+    background-color: #555555;
+    color: white;
+    font-size: 20px;
+    padding: 5px 22px;
+    border-radius: 4px;
+    transition-duration: 0.3s;
+   
+}
+
+button:hover
+{
+    opacity: 60%;
+}
+
+div.butto
+{
+    text-align: center;
+}
+
+a.top
+{
+    scroll-behavior: smooth;
+}
+
+div.mainpage
+div.nutrition
+{
+    text-align: center;
+    border-radius: 0px;
+}
+
+li.hooverli
+{
+    list-style-type: none;
+}
+
+button.mainpage
+{
+    display: block;
+   
+}
+div.imagemain
+{
+    text-align: right;
+}
+img.mainpage
+{
+    width: 250px;
 }
