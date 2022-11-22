@@ -1,0 +1,84 @@
+*
+{
+    font-family: serif;
+}
+
+
+body
+{
+    margin: 0;
+    margin-top: 0;
+    line-height: 1;
+    background-color: hsl(180, 3%, 93%);
+}
+
+header
+{
+    font-family: serif;
+    text-align: center;
+    padding: 5px;
+     margin: 10;
+    font-size: 44px;
+    font-weight: 400;
+    background-color: hsla(0, 0%, 77%, 0.863);
+    border-bottom: 3px solid hsl(251, 88%, 38%);
+}
+
+ul
+{
+    font-size: 24px;
+    padding-left: 52px;
+}
+li:hover
+{
+    opacity: 0.55;
+}
+
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 400px;
+    height: auto;
+    opacity: 0.95;
+    border-radius: 10%;
+}
+
+img:hover
+{
+    opacity: 0.55;
+}
+
+h3
+{
+    text-align: center;
+    padding: 5px;
+    font-size: 24px;
+}
+
+p.recipe
+{
+    margin-top: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    font-size: 18px;
+    text-justify: inter-word; 
+}
+
+.recipe
+{
+    margin-top: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 18px;   
+    text-justify: inter-word; 
+}
