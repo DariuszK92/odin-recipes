@@ -14,7 +14,6 @@ body
 
 header
 {
-    font-family: serif;
     text-align: center;
     padding: 5px;
      margin: 10;
@@ -30,6 +29,7 @@ ul
     padding-left: 52px;
 }
 li.hooverli:hover
+img:hover
 {
     opacity: 0.55;
 }
@@ -52,10 +52,6 @@ img
     border-radius: 10%;
 }
 
-img:hover
-{
-    opacity: 0.55;
-}
 
 h3
 {
@@ -104,16 +100,14 @@ div.butto
     text-align: center;
 }
 
-a.top
-{
-    scroll-behavior: smooth;
-}
+
 
 div.mainpage
 div.nutrition
 {
-    text-align: center;
+   margin: auto;
     border-radius: 0px;
+    display: block;
 }
 
 li.hooverli
@@ -128,7 +122,9 @@ button.mainpage
 }
 div.imagemain
 {
-    text-align: right;
+    
+    display: block;
+    
 }
 img.mainpage
 {
